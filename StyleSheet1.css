@@ -172,13 +172,10 @@ section{
     .navbarItems ul{
         flex-wrap: wrap;
         display: none;
-        width: 100%;
+        width: 80%;
         padding-right: 5%;
         flex-direction: row;
         align-content: flex-start; 
-    }
-      .navbarItems ul li a  {
-      width: 150%; 
     }
     .navbutton button{
         display: block;

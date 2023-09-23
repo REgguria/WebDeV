@@ -1,0 +1,191 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
+.navbar{
+    width: 100%;
+}
+.navbarItems{
+    display: flex;
+    width: 100%;    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+.navImage{
+    width: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.navbarItems ul{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbarItems li{
+    display: flex;
+   justify-content: flex-end;
+}
+.navbarItems li a {
+    padding: 1rem;
+    display: flex;
+    color: black;
+    text-decoration: none;
+  }
+.navbarItems img{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    width: 100%;
+} 
+.navbutton button{
+    display: none;
+}
+header{
+    height: 100%;
+    width: 100%;
+
+}
+section{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.carousel{
+    background-image: url(image.jpg);
+    height: 500px;
+    width: 100%;
+    color: white;    
+}
+.carousel h2{
+    padding-left: 50px;
+    padding-top: 200px;
+}
+.carousel h1{
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 50px;
+}
+.carousel button{
+    font-size: 10px;
+    position: relative;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Featured{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.FeaturedImgs{
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.FeaturedImgs a{
+    text-align: center;
+ display: block;
+ padding: 5px;
+ text-decoration: none;
+ color: black;
+}
+
+.comments{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    height: 5%;
+    width: 100%;
+    overflow: hidden;
+}
+@media screen and (max-width: 768px){
+  
+    .navbarItems ul li {
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      flex-direction: row;
+      align-content: flex-start;
+      width: 25%; 
+    }
+    .navbarItems ul{
+        display: none;
+        width: 100%;
+        padding-right: 50px;
+        flex-direction: row;
+        align-content: flex-start; 
+    }
+    .navbutton button{
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 1px;
+        top: 1px;
+    }
+    .navImage{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 425px){
+  
+    .navbarItems ul li {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: flex-start;
+      justify-content: center;
+    }
+    .navbarItems ul{
+        display: none;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .navbutton button{
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 1px;
+        top: 1px;
+    }
+    .navImage{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 50px;
+    }
+}

@@ -167,7 +167,7 @@ section{
       overflow: hidden;
       flex-direction: column;
       align-content: flex-start;
-      width: 25%; 
+      width: 100%; 
     }
     .navbarItems ul{
         flex-wrap: wrap;
@@ -176,6 +176,9 @@ section{
         padding-right: 5%;
         flex-direction: row;
         align-content: flex-start; 
+    }
+      .navbarItems ul li a  {
+      width: 150%; 
     }
     .navbutton button{
         display: block;

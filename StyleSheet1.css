@@ -10,7 +10,7 @@ body{
     flex-direction: column;
 } 
 .navbar{
-    width: 100%;
+    min-width: 100px;
 }
 .navbarItems{
     display: flex;
@@ -165,7 +165,7 @@ section{
       display: flex;
       flex-wrap: wrap;
       overflow: hidden;
-      flex-direction: column;
+      flex-direction: row;
       align-content: flex-start;
       width: 100%; 
     }

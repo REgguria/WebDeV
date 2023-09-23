@@ -193,4 +193,7 @@ section{
         align-content: center;
         justify-content: center;
     }
+    .NavImage{
+        display: none;
+    }
 }

@@ -10,7 +10,7 @@ body{
     flex-direction: column;
 } 
 .navbar{
-    min-width: 100px;
+    min-height: 100px;
 }
 .navbarItems{
     display: flex;

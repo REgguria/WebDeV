@@ -154,7 +154,7 @@ section{
         top: 1px;
     }
     .navImage{
-        display: flex;
+        display: none;
         align-content: center;
         justify-content: center;
     }
@@ -185,12 +185,9 @@ section{
         right: 1px;
         top: 1px;
     }
-    .navbarItems img{
+     .navImage{
         display: none;
         align-content: center;
         justify-content: center;
-    }
-    .navImage{
-        display: none;
     }
 }

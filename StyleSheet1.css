@@ -186,7 +186,7 @@ section{
         top: 1px;
     }
     .navImage{
-        display: flex;
+        display: none;
         align-content: center;
         justify-content: center;
     }
